@@ -1,0 +1,11 @@
+@import 'reset.scss';
+@import 'colors.scss';
+@import 'shadow.scss';
+@import 'base.scss';
+@import 'list.scss';
+@import 'details.scss';
+
+body {
+    font-family: 'Roboto', sans-serif;       
+    background-color: $light-grey;
+}

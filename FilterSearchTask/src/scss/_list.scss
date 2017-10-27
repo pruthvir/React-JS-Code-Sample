@@ -1,0 +1,47 @@
+.list-container {
+    flex-grow: 1;
+    margin: 0 30px;
+    padding: 10px;
+    border: 1px solid $medium-grey;
+    background: $white;
+    input[type="search"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 20px;
+        line-height: 20px;
+        border: 1px solid $dark-grey;
+        border-radius: 25px;
+        &:focus {
+            border: 2px solid $dark-blue;
+        }
+    }
+    .list {
+        margin-top: 20px;
+        max-height: 450px;
+        overflow: auto;
+    }
+    .list-item {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+        background: $white;
+        cursor: pointer;
+        border-radius: 6px;
+        margin: 8px;
+        img {
+            border-radius: 5px;
+            width: 50px;
+            height: 50px;
+        }
+        .details {
+            margin-left: 30px;
+            .name {
+                font-size: 25px;
+            }
+            .job {
+                font-size: 15px;
+                color: $dark-grey;
+            }
+        }
+    }
+}

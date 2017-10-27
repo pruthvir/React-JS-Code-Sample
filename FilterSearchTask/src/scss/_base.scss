@@ -1,0 +1,15 @@
+.app-container {
+   
+}
+
+header {
+    height: 50px;
+    background-color: $dark-blue;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 30px;
+    display: flex;
+}
